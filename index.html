@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEXT-TO-SPEECH-CONVERTER</title>
-    <link rel="website icon" type="png" href=""/>
-    <link rel="stylesheet" href="style.css"/>
+    <title>TEXT-TO-SPEECH CONVERTER</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="main">
-        <h1>TEXT TO SPEECH<span>CONVERTER</span></h1>
-        <p>BY ARYAMAN</p>
-        <textarea placeholder="Write Anything Here......."></textarea>
-        <div class="line">
-            <select></select>
-            <button> <img src="play.png" alt="Listen" height="20px" width="25px"></button>
+        <div class="card">
+            <h1>TEXT TO <span>SPEECH</span> CONVERTER</h1>
+            <p>BY ARYAMAN</p>
+            <textarea placeholder="Write something here..."></textarea>
+            <div class="line">
+                <select>
+                    <option value="" disabled selected>Select Language</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <!-- Add more language options -->
+                </select>
+                <button>
+                    <img src="play.png" alt="Play" />
+                    Play
+                </button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
